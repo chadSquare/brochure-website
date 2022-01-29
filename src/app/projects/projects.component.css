@@ -1,0 +1,63 @@
+.projects-container  {
+  margin: auto;
+  width: 90%;
+}
+
+.page-title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+}
+
+.projects-overview {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.project-card {
+  height: 100%;
+  /*width: 30rem;*/
+  margin-bottom: 30px;
+}
+
+.project-card-img-container {
+  overflow: hidden;
+  height: 90%;
+}
+
+.pcic {
+  transition: transform 0.4s;
+  overflow: hidden;
+  height: 100%;
+
+}
+
+.project-card-img-container :hover {
+  transform: scale(1.02);
+  overflow: hidden;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.project-description-container {
+  text-align: center;
+}
+
+.project-name {
+  margin: auto;
+  padding-top: 0;
+  text-align: center;
+  color: var(--white);
+}
+
+@media(max-width: 765px) {
+  .project-card {
+    margin-bottom: 50px;
+  }
+}
