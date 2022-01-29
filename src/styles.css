@@ -6,5 +6,8 @@
   --white: aliceblue;
   --purple: #5e2c85;
 }
-html, body { height: 100%; background: var(--black)}
+html, body {
+  height: 100%;
+  /*background: var(--black)*/
+}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

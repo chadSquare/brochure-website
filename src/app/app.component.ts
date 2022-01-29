@@ -1,15 +1,19 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'my-brochure-site';
 
+  ngOnInit(): void {
+  }
+
   options = {
-    fpsLimit: 60,
+    fpsLimit: 120,
+    'z-index': -1,
     // interactivity: {
     //   // detectsOn: "canvas",
     //   events: {

@@ -9,6 +9,7 @@ import { MainNavComponent } from './main-nav/main-nav.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
+import { ProjectsComponent } from './projects/projects.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import {MatToolbarModule} from "@angular/material/toolbar";
     AppComponent,
     MainNavComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
