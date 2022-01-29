@@ -11,6 +11,7 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
     console.log(window.innerWidth);
+    console.log('hi chad');
   }
 
 }
